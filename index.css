@@ -95,9 +95,6 @@ body{
     width: 60%;
     height: 60%;
     margin-left: 60px;
-    background-image: url('./images/papamelon-rermovebg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -126,9 +123,6 @@ body{
     height: 70%;
     display: flex;
     align-items: center;
-    background-image: url('./images/papamelon\ 번역기능.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .top-content-introduce{
     margin-left: 100px;
@@ -158,9 +152,6 @@ body{
     height: 70%;
     display: flex;
     align-items: center;
-    background-image: url('./images/papamelon\ 아재개그기능.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .bottom-content-introduce{
     margin-left: 50px;
