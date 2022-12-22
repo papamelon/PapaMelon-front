@@ -28,7 +28,7 @@
                     </p>
                     <div class="invite-button-container">
                         <button class="invite-button" id="invite-button">
-                           서버에 초대하기
+                           초대하기
                         </button>
                     </div>
                 </div>
@@ -77,3 +77,12 @@
     </footer>
 </body>
 </html>
+<script src='https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js'></script>
+<script>
+    var sf = new Snowflakes({
+        color: "#E0FFFF", // 색상
+        count: 75, // 갯수
+        minOpacity: 0.7, // 최소 투명도 0: 투명 | 1: 불투명
+        maxOpacity: 0.7, // 최대 투명도
+    });
+</script>
